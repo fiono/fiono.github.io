@@ -1,0 +1,25 @@
+#content {
+    max-width: 800px;
+    margin: 25px;
+    margin-left: 300px;
+
+    h2 {
+      margin: 0px 5px;
+    }
+
+    #icons {
+        margin: 25px 0px;
+
+        .icon img {
+            width: 10%;
+        }
+    }
+}
+
+#bigf {
+  position: fixed;
+  top: 40px;
+  left: 20px;
+  width: 250px;
+  border-radius: 300px;
+}

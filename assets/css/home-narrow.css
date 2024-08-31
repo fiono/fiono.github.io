@@ -1,0 +1,15 @@
+#content {
+  padding: 20px;
+}
+#content #icons {
+  padding: 0px;
+}
+#content #icons .icon img {
+  width: 10%;
+}
+
+#bigf {
+  display: none;
+}
+
+/*# sourceMappingURL=home-narrow.css.map */

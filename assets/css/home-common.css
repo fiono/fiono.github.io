@@ -1,0 +1,37 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #c8ddeb;
+  background: -moz-linear-gradient(90deg, #c8ddeb 0%, #e193fa 31%, #ff9415 69%, #e8e981 100%);
+  background: -webkit-linear-gradient(90deg, #c8ddeb 0%, #e193fa 31%, #ff9415 69%, #e8e981 100%);
+  background: linear-gradient(90deg, #c8ddeb 0%, #e193fa 31%, #ff9415 69%, #e8e981 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c8ddeb",endColorstr="#e8e981",GradientType=1);
+}
+
+#content {
+  color: #333;
+  font-size: 20pt;
+  font-family: "Roboto", sans-serif;
+}
+#content h2 {
+  font-family: "Abril Fatface", cursive;
+}
+#content p {
+  margin: 15px 0px;
+}
+#content a {
+  font-family: "Abril Fatface", cursive;
+  color: white;
+  text-decoration: none;
+}
+#content a:hover {
+  text-decoration: underline;
+}
+#content #icons .icon {
+  margin: 0px;
+}
+#content #icons .icon img {
+  max-width: 64px;
+}
+
+/*# sourceMappingURL=home-common.css.map */

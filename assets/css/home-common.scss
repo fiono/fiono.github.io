@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+
+    background: rgb(200,221,235);
+    background: -moz-linear-gradient(90deg, rgba(200,221,235,1) 0%, rgba(225,147,250,1) 31%, rgba(255,148,21,1) 69%, rgba(232,233,129,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(200,221,235,1) 0%, rgba(225,147,250,1) 31%, rgba(255,148,21,1) 69%, rgba(232,233,129,1) 100%);
+    background: linear-gradient(90deg, rgba(200,221,235,1) 0%, rgba(225,147,250,1) 31%, rgba(255,148,21,1) 69%, rgba(232,233,129,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c8ddeb",endColorstr="#e8e981",GradientType=1);
+}
+
+#content {
+    color: #333;
+    font-size: 20pt;
+    font-family: 'Roboto', sans-serif; 
+
+    h2 {
+      font-family: 'Abril Fatface', cursive;
+    }
+
+    p {
+        margin: 15px 0px;
+    }
+
+    a {
+        font-family: 'Abril Fatface', cursive;
+        color: white;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    #icons {
+        .icon {
+            margin: 0px;
+        }
+
+        .icon img {
+            max-width: 64px;
+        }
+    }
+}
